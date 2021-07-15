@@ -7,7 +7,7 @@
 
 1. Download shared libs of SIGIL from [SIGIL Downloads](http://www.libsigil.com/#download) depending on your platform!
 2. Download/Clone this repo or at least download the files as raw.
-3. Write code and include `sl_loader.h` for loader and `sl.h` for API!
+3. Write code and include `sl_loader.h` for loader and this repo's `sl.h` for API!
 
 ```c
 #include "sl.h"
