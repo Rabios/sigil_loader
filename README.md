@@ -2,6 +2,7 @@
 
 [SIGIL](http://libsigil.com) Loader for C to use SIGIL with no compilation hassle!
 
+
 ### Usage
 
 1. Download shared libs of SIGIL from [SIGIL Downloads](http://www.libsigil.com/#download) depending on your platform!
@@ -49,6 +50,7 @@ int main(int args, char *argv[]) {
 
 > NOTE: You could check `test` folder for the example.
 
+
 ### Loader API
 
 This is following API provided with `sl_loader.h` and isn't releated to SIGIL but following his code style! :)
@@ -58,6 +60,7 @@ void*   sl_lib;                             // [void]   The SIGIL shared library
 int     slLoadAPI(const char* libname);     // [int]    Load SIGIL from shared library path and assigns handle to sl_lib, Returns 0 on success or -1 on failure.
 int     slUnloadAPI(void);                  // [int]    Unload SIGIL and returns 0 if success or -1 on failure.
 ```
+
 
 ### LICENSE
 
